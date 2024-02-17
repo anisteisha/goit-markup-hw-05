@@ -519,3 +519,140 @@ img {
 .icon {
     fill: #f4f4fd;
 }
+
+.footer-component {
+    width: 453px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.component-text {
+    color: var(--CLOUD, #F4F4FD);
+    font-weight: 500;
+    margin-bottom: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.footer-form {
+    display: flex;
+    gap: 24px;
+  }
+  
+.footer-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+    color: #fff;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding: 8px 16px;
+}
+
+.footer-button {
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    min-width: 165px;
+    height: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 10px 24px;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+
+}
+
+.footer-icon {
+    background-color: transparent;
+    fill: #FFF;
+    margin-left: 16px;
+    border-radius: 2px;
+    
+}
+/*modal*/
+
+.bacdrop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2E2F4266;
+}
+    
+
+.modal {
+    width: 408px;
+    min-height: 584px;
+    background-color: #FCFCFC;
+    top: 80px;
+    left: 516px;
+    border-radius: 4px;
+    position: absolute;
+    padding: 24px;
+    padding-top: 70px;
+}
+
+.modal-close {
+    top: 24px;
+    right: 24px;
+    border-radius: 4px;
+    background-color: transparent;
+    border:  1px solid transparent;
+    position: absolute;
+}
+
+.modal-text {
+    font-weight: 500;
+    width: 360px;
+    height: 24px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-form {
+    max-width: 360px;
+    min-height: 336px;
+    border-radius: 4px;
+       
+}
+
+.modal-input {
+width: 100%;
+height: 40px;
+border-radius: 4px;
+border: 1px solid #2E2F4266;
+padding-left: 38px;
+outline: transparent;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-lab {
+display: block;
+margin-bottom: 8px;
+font-size: 12px;
+color: #8E8F99;
+}
+
+.modal-cont {
+    margin-bottom: 18px;
+}
+
+.modal-icon-form {
+    fill: #2e2f42;
+    position: absolute;
+    left: 45px;
+    transform: translateY(35%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
