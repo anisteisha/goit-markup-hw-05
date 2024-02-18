@@ -592,7 +592,7 @@ img {
 
 .modal {
     width: 408px;
-    min-height: 584px;
+    height: 584px;
     background-color: #FCFCFC;
     top: 80px;
     left: 516px;
@@ -638,6 +638,14 @@ outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-input:focus + .modal-icon-form {
+    fill: #4d5ae5;
+}
+
+.modal-input:focus{
+    border: 1px solid #4d5ae5;
+  }
+
 .modal-lab {
 display: block;
 margin-bottom: 8px;
@@ -646,7 +654,7 @@ color: #8E8F99;
 }
 
 .modal-cont {
-    margin-bottom: 18px;
+    margin-bottom: 2px;
 }
 
 .modal-icon-form {
@@ -656,3 +664,75 @@ color: #8E8F99;
     transform: translateY(35%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
+
+ .modal-area {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+    color: #2E2F4266;
+    width: 100%;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid #2E2F4266;
+    padding: 10px 16px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    resize: none;
+ }
+
+.form-but {
+    font-family: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    box-align: center;
+    min-width: 169px;
+    min-height: 56px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px #636060d0;
+    padding: 16px 32px;
+}
+
+.modal-checkbox {
+    margin-bottom: 18px;
+}
+
+.modal-check {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #8e8f99;
+}
+
+.modal-check a {
+    line-height: 1.3;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+}
+
+.modal-span {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid #2E2F4266;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.form-check:checked + .modal-check span {
+    background-color: #4D5AE5;
+    border: none;
+    fill: #FFF;
+}
