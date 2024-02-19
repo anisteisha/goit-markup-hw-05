@@ -759,7 +759,6 @@ margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
     align-items: center;
     gap: 6px;
     color: #8e8f99;
@@ -772,15 +771,12 @@ margin-bottom: 4px;
     color: #4d5ae5;
 }
 
-.modal-check span {
-    display: inline-flex;
-}
-
 .modal-span {
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid #2E2F4266;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
