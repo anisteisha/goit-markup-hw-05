@@ -626,7 +626,7 @@ img {
     border: none;
 }
 
-.modal-close:hover {
+.modal-close:focus {
     background-color: #404bbf;
     border: none;
 }
@@ -690,7 +690,7 @@ margin-bottom: 4px;
 }
 
 .modal-cont {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-icons {
@@ -773,6 +773,7 @@ margin-bottom: 4px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid #2E2F4266;
+    display: flex;
     display: inline-flex;
     align-items: center;
     justify-content: center;
